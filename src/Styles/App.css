@@ -31,24 +31,36 @@ body {
     right: 0;
 }
 
-.header_links :nth-child(1) {
+.header_links :nth-child(3) {
     font-family: 'BH';
-    padding: .6rem 1.5rem;
+    padding: .8rem 1rem;
     cursor: pointer;
     color: var(--white);
     appearance: none;
     border-style: none;
     margin: 2.8rem 3rem;
     font-weight: 700;
-    border-radius: .8rem;
+    font-size: 15px;
+    border-top-left-radius: .8rem;
+    border-bottom-left-radius: .8rem;
+    border-top-right-radius: .8rem;
     background-color: var(--blue);
     box-shadow:
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
-.header h2 {
-    font-weight: 500;
+.header_links a {
     color: var(--white);
     font-family: 'BH';
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.header h2 {
+    font-weight: 600;
+    color: var(--white);
+    font-family: 'BH';
+    padding: 2rem 5rem;
 }
