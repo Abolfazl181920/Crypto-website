@@ -4,6 +4,15 @@ body {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'BH';
+    src: url('../Font/BAHNSCHRIFT\ 7.TTF');
+}
+
+:root {
+    --white: #fff;
+}
+
 /* Header.js component */
 .fullscreen-video {
     position: absolute;
@@ -14,4 +23,10 @@ body {
     width: 0;
     height: auto;
     transform: translateX(-50%) translateY(-50%);
+}
+
+.header h2 {
+    font-weight: 500;
+    color: var(--white);
+    font-family: 'BH';
 }

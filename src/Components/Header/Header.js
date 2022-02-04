@@ -5,7 +5,12 @@ import NavAnim from 'Assests/loop.webm';
 const Header = () => {
     return (
         <header className="header">
-            <h2 style={{ position: 'absolute', zIndex: '10' }}>something</h2>
+            <div className="header_links" style={{ zIndex: '10', position: 'absolute' }}>
+                <button>Create account</button>
+                <a>contact</a>
+                <a>faq</a>
+            </div>
+            <h2 className="brand" style={{ position: 'absolute', zIndex: '10' }}>Crypto</h2>
             <video className="fullscreen-video" id="myVideo" autoplay="autoplay" muted loop>
                 <source src={NavAnim} />
             </video>
