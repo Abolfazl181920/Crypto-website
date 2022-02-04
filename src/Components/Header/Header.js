@@ -1,12 +1,13 @@
 import React from 'react';
 
-import NavAnim from 'Assests/NavAnim.mp4';
+import NavAnim from 'Assests/loop.webm';
 
 const Header = () => {
     return (
         <header className="header">
-            <video autoPlay loop muted playsInline controls className="video">
-                <source src={NavAnim} type="video/mp4" />
+            <h2 style={{ position: 'absolute', zIndex: '10' }}>something</h2>
+            <video className="fullscreen-video" id="myVideo" autoplay="autoplay" muted loop>
+                <source src={NavAnim} />
             </video>
         </header>
     );
