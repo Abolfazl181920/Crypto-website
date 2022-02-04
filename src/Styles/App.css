@@ -11,7 +11,8 @@ body {
 
 :root {
     --white: #fff;
-    --blue: rgb(70, 103, 194);
+    --normalwhite: #f1f1f1;
+    --blue: rgb(47, 92, 218);
 }
 
 /* Header.js component */
@@ -33,12 +34,12 @@ body {
 
 .header_links :nth-child(3) {
     font-family: 'BH';
-    padding: .8rem 1rem;
+    padding: .8rem .8rem;
     cursor: pointer;
     color: var(--white);
     appearance: none;
     border-style: none;
-    margin: 2.8rem 3rem;
+    margin: 2rem 3rem;
     font-weight: 700;
     font-size: 15px;
     border-top-left-radius: .8rem;
@@ -62,5 +63,25 @@ body {
     font-weight: 600;
     color: var(--white);
     font-family: 'BH';
-    padding: 2rem 5rem;
+    padding: 1.3rem 4rem;
+}
+
+/* Nav.js component */
+.description {
+    position: absolute;
+    color: var(--normalwhite);
+    font-size: 66px;
+    line-height: 80px;
+    font-weight: 400;
+    font-family: 'BH';
+    padding: 10rem 9rem;
+}
+
+.mini_description {
+    position: absolute;
+    color: var(--normalwhite);
+    padding: 16rem 9.3rem;
+    font-size: 17px;
+    font-family: 'BH';
+    top: 35%;
 }
