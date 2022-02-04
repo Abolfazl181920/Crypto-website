@@ -11,6 +11,7 @@ body {
 
 :root {
     --white: #fff;
+    --blue: rgb(70, 103, 194);
 }
 
 /* Header.js component */
@@ -23,6 +24,27 @@ body {
     width: 0;
     height: auto;
     transform: translateX(-50%) translateY(-50%);
+}
+
+.header_links {
+    position: relative;
+    right: 0;
+}
+
+.header_links :nth-child(1) {
+    font-family: 'BH';
+    padding: .6rem 1.5rem;
+    cursor: pointer;
+    color: var(--white);
+    appearance: none;
+    border-style: none;
+    margin: 2.8rem 3rem;
+    font-weight: 700;
+    border-radius: .8rem;
+    background-color: var(--blue);
+    box-shadow:
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .header h2 {
