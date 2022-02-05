@@ -5,7 +5,7 @@ import NavAnim from 'Assests/loop.webm';
 const Header = () => {
     return (
         <header className="header">
-            <div className="header_links" style={{ zIndex: '10', position: 'absolute' }}>
+            <div className="header_links" style={{ zIndex: '10', position: 'fixed' }}>
                 <a>contact</a>
                 <a>faq</a>
                 <button>Create account</button>

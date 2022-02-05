@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: 'BH'
 }
 
 @font-face {
@@ -13,7 +14,7 @@ body {
     --white: #fff;
     --normalwhite: #f1f1f1;
     --blue: rgb(47, 92, 218);
-    --black: rgb(25, 25, 25);
+    --black: rgb(21, 21, 21);
 }
 
 /* Header.js component */
@@ -35,7 +36,6 @@ body {
 }
 
 .header_links :nth-child(3) {
-    font-family: 'BH';
     padding: .8rem .8rem;
     cursor: pointer;
     color: var(--white);
@@ -55,7 +55,6 @@ body {
 
 .header_links a {
     color: var(--white);
-    font-family: 'BH';
     font-size: 17px;
     font-weight: 500;
     margin-left: 15px;
@@ -64,7 +63,6 @@ body {
 .header h2 {
     font-weight: 600;
     color: var(--white);
-    font-family: 'BH';
     padding: 1.3rem 4rem;
 }
 
@@ -75,7 +73,6 @@ body {
     font-size: 66px;
     line-height: 80px;
     font-weight: 400;
-    font-family: 'BH';
     padding: 10rem 9rem;
 }
 
@@ -84,7 +81,6 @@ body {
     color: var(--normalwhite);
     padding: 16rem 9.3rem;
     font-size: 17px;
-    font-family: 'BH';
     top: 35%;
 }
 
@@ -95,4 +91,44 @@ body {
     background-color: var(--black);
     position: absolute;
     top: 100%;
+}
+
+.content_description {
+    color: var(--normalwhite);
+    margin-top: 11rem;
+    text-align: center;
+}
+
+.content_description :nth-child(1) {
+    font-size: 119px;
+    text-align: center;
+    line-height: 8rem;
+}
+
+.payment {
+    margin-top: -6rem;
+}
+
+.request {
+    margin-top: -.5rem;
+}
+
+.coin_video1, .coin_video2, .coin_video3 {
+    width: 7rem;
+    position: absolute;
+}
+
+.coin_video1 {
+    top: 5.8%;
+    right: 29.8%;
+}
+
+.coin_video2 {
+    top: 30%;
+    left: 20%;
+}
+
+.coin_video3 {
+    top: 28%;
+    right: 20%;
 }
