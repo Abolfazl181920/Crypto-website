@@ -132,3 +132,11 @@ body {
     top: 28%;
     right: 20%;
 }
+
+/* Items.js component */
+.items {
+    display: flex;
+    justify-content: space-around;
+    color: var(--normalwhite);
+    padding: 6rem;
+}
