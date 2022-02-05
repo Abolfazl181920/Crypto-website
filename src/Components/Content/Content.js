@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Items from 'Components/Content/Items';
+
 import Coin from 'Assests/Swim.webm';
 
 const Content = () => {
@@ -22,6 +24,8 @@ const Content = () => {
                 <p className="payment">Make a simple payment link in 5 seconds.</p>
                 <p className="request">Use our powerful features to customize your request.</p>
             </div>
+
+            <Items />
         </div>
     )
 }
