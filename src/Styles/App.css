@@ -13,9 +13,11 @@ body {
     --white: #fff;
     --normalwhite: #f1f1f1;
     --blue: rgb(47, 92, 218);
+    --black: rgb(25, 25, 25);
 }
 
 /* Header.js component */
+
 .fullscreen-video {
     position: absolute;
     top: 50%;
@@ -84,4 +86,13 @@ body {
     font-size: 17px;
     font-family: 'BH';
     top: 35%;
+}
+
+/* Content.js component */
+.content {
+    height: 280vh;
+    width: 100%;
+    background-color: var(--black);
+    position: absolute;
+    top: 100%;
 }
