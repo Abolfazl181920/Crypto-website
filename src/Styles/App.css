@@ -201,34 +201,25 @@ section p {
 }
 
 .cursor {
-    width: 300px;
-    height: 300px;
+    width: 380px;
+    height: 380px;
     background-color: var(--white);
     /* FIXED IT ... */
     position: fixed;
     border-radius: 50%;
     pointer-events: none;
     mix-blend-mode: difference;
-    animation: heartbeat 1s infinite;
+    animation: heartbeat 2s infinite;
 }
 
 @keyframes heartbeat {
   0% {
-    transform: scale( .75 );
-  }
-  20% {
     transform: scale( 1 );
   }
-  40% {
-    transform: scale( .75 );
-  }
-  60% {
-    transform: scale( 1 );
-  }
-  80% {
-    transform: scale( .75 );
+  50% {
+    transform: scale( .70 );
   }
   100% {
-    transform: scale( .75 );
+    transform: scale( 1 );
   }
 }
