@@ -2,9 +2,10 @@ import React from 'react';
 
 function Scan() {
     return (
-        <div>
-            
-        </div>
+        <>
+            <h3 className="scan">Scan <br /> & Go</h3>
+            <p className="scan_description"></p>
+        </>
     )
 }
 
