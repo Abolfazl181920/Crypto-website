@@ -138,5 +138,13 @@ body {
     display: flex;
     justify-content: space-around;
     color: var(--normalwhite);
-    padding: 6rem;
+    padding: 10rem;
+    margin-top: -4rem;
+}
+
+/* Request.js */
+.request_video {
+    position: absolute;
+    width: 25%;
+    left: 25%;
 }
