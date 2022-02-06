@@ -2,12 +2,17 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: 'BH'
+    font-family: 'BH';
 }
 
 @font-face {
     font-family: 'BH';
     src: url('../Font/BAHNSCHRIFT\ 7.TTF');
+}
+
+@font-face {
+    font-family: 'BHN';
+    src: url('../Font/AvenirLTStd-Roman.otf');
 }
 
 :root {
@@ -146,5 +151,26 @@ body {
 .request_video {
     position: absolute;
     width: 25%;
-    left: 25%;
+    left: 23%;
+    top: 55%;
+}
+
+section h3 {
+    font-size: 66px;
+    color: var(--normalwhite);
+    position: absolute;
+    right: 10%;
+    top: 53%;
+    font-family: 'BHN';
+    font-weight: 100;
+}
+
+section p {
+    font-size: 15px;
+    position: absolute;
+    color: var(--white);
+    right: 30%;
+    letter-spacing: .2rem;
+    font-weight: 600;
+    top: 71.3%;
 }
