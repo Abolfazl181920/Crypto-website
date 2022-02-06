@@ -91,7 +91,7 @@ body {
 
 /* Content.js component */
 .content {
-    height: 280vh;
+    height: 420vh;
     width: 100%;
     background-color: var(--black);
     position: absolute;
@@ -124,17 +124,17 @@ body {
 }
 
 .coin_video1 {
-    top: 5.8%;
+    top: 3.9%;
     right: 29.8%;
 }
 
 .coin_video2 {
-    top: 30%;
+    top: 20%;
     left: 20%;
 }
 
 .coin_video3 {
-    top: 28%;
+    top: 18%;
     right: 20%;
 }
 
@@ -144,7 +144,6 @@ body {
     justify-content: space-around;
     color: var(--normalwhite);
     padding: 10rem;
-    margin-top: -4rem;
 }
 
 /* Request.js */
@@ -152,7 +151,7 @@ body {
     position: absolute;
     width: 25%;
     left: 23%;
-    top: 55%;
+    top: 40%;
 }
 
 section h3 {
@@ -160,7 +159,7 @@ section h3 {
     color: var(--normalwhite);
     position: absolute;
     right: 10%;
-    top: 53%;
+    top: 39%;
     font-family: 'BHN';
     font-weight: 400;
 }
@@ -169,8 +168,29 @@ section p {
     font-size: 15px;
     position: absolute;
     color: var(--white);
-    right: 30%;
-    letter-spacing: .2rem;
+    right: 36%;
     font-weight: 600;
-    top: 71.3%;
+    top: 50.5%;
+}
+
+/* Scan.js component */
+.scan {
+    color: var(--normalwhite);
+    font-size: 111px;
+    position: absolute;
+    top: 60%;
+    position: absolute;
+    left: 40%;
+    letter-spacing: .7rem;
+}
+
+.scan_description {
+    color: var(--normalwhite);
+    font-size: 15px;
+    font-weight: 700;
+    left: 30%;
+    line-height: 1.7rem;
+    text-align: center;
+    position: absolute;
+    top: 74%;
 }
