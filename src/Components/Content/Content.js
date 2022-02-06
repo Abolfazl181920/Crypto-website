@@ -2,6 +2,7 @@ import React from 'react';
 
 import Items from 'Components/Content/Items';
 import Requests from 'Components/Content/Requests';
+import Scan from 'Components/Content/Scan';
 
 import Coin from 'Assests/Swim.webm';
 
@@ -28,6 +29,7 @@ const Content = () => {
 
             <Items />
             <Requests />
+            <Scan />
         </div>
     )
 }
