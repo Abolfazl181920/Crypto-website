@@ -184,7 +184,6 @@ section p {
     letter-spacing: .7rem;
 }
 
-/* MABY NEDD FIXING */
 .scan .scan_description:hover ~ .cursor {
     transform: scale(5);
 }
@@ -201,10 +200,9 @@ section p {
 }
 
 .cursor {
-    width: 380px;
-    height: 380px;
+    width: 300px;
+    height: 300px;
     background-color: var(--white);
-    /* FIXED IT ... */
     position: relative;
     border-radius: 50%;
     pointer-events: none;
@@ -222,4 +220,21 @@ section p {
   100% {
     transform: scale( 1 );
   }
+}
+
+/* ScanPointer.js component */
+.QR {
+    position: absolute;
+    top: 85%;
+    left: 41%;
+    transition: all linear 1.3s;
+    filter: brightness(10%);
+}
+
+.QR_cover {
+    position: absolute;
+    top: 85%;
+    left: 41%;
+    filter: brightness(100%);
+    transition: all linear 1.3s;
 }

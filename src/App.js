@@ -5,6 +5,7 @@ import Nav from 'Components/Navigation/Nav';
 import Content from 'Components/Content/Content';
 import ScanPointer from 'Components/Content/ScanPointer';
 
+
 const App = () => {
   return (
     <div>
