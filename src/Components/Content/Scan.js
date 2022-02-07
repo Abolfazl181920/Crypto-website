@@ -1,9 +1,6 @@
 import React from 'react';
 
 const Scan = () => {
-
-    
-
     return (
         <>
             <h3 className="scan">Scan <br /> & Go</h3>

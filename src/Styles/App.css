@@ -205,7 +205,7 @@ section p {
     height: 380px;
     background-color: var(--white);
     /* FIXED IT ... */
-    position: fixed;
+    position: relative;
     border-radius: 50%;
     pointer-events: none;
     mix-blend-mode: difference;
