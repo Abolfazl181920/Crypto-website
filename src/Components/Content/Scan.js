@@ -17,12 +17,16 @@ const Scan = () => {
     const handleQR = () => {
         setQr(true);
     }
+
+    const handleQrOut = () => {
+        setQr(false);
+    }
     
     return (
         <>
             <h3 className="scan">Scan <br /> & Go</h3>
             <p className="scan_description">Transform your payment link into a QR code that customers can scan with their <br /> phone to pay.</p>
-            <img onMouseOver={handleQR} className={Qr ? 'QR_cover' : 'QR'} src={QR} alt="QR code" />
+            <img onMouseOver={handleQR} onMouseOut={handleQrOut} className={Qr ? 'QR_cover' : 'QR'} src={QR} alt="QR code" />
         </>
     );
 }
