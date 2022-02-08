@@ -5,6 +5,7 @@ import Nav from 'Components/Navigation/Nav';
 import Content from 'Components/Content/Content';
 import ScanPointer from 'Components/Content/ScanPointer';
 import Methods from 'Components/Methods/Methods';
+import Footer from 'Components/Footer/Footer';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Content />
       <ScanPointer />
       <Methods />
+      <Footer />
     </div>
   );
 }

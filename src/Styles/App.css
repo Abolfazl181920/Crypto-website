@@ -268,3 +268,15 @@ section p {
     object-fit: cover;
     margin-top: 7.8rem;
 }
+
+/* Footer.js component */
+.footer_video {
+    position: absolute;
+    top: 655%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 0;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
