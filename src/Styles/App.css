@@ -280,3 +280,15 @@ section p {
     height: auto;
     transform: translateX(-50%) translateY(-50%);
 }
+
+footer h2 {
+    font-size: 70px;
+    position: absolute;
+    top: 635%;
+    color: var(--normalwhite);
+    position: absolute;
+    z-index: 10;
+    left: 10%;
+    word-spacing: .5rem;
+    font-weight: 500;
+}
