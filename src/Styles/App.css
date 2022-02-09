@@ -263,17 +263,17 @@ section p {
 }
 
 .method_banner {
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     object-fit: cover;
-    margin-top: 7.8rem;
+    margin-top: 3rem;
 }
 
 /* Footer.js component */
 .footer_video {
     position: absolute;
-    top: 655%;
     left: 50%;
+    top: 650%;
     min-width: 100%;
     min-height: 100%;
     width: 0;
