@@ -333,7 +333,9 @@ footer span {
 }
   
 .dropdown {
-    position: relative;
+    position: absolute;
+    top: 650%;
+    right: 10%;
     display: inline-block;
 }
   
