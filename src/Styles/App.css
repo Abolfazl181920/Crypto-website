@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    overflow-x: hidden;
     font-family: 'BH';
 }
 
@@ -323,22 +324,27 @@ footer span {
 
 /* List.js component */
 .drop_button {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 700;
     border: none;
+    height: 3rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 3rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
     cursor: pointer;
     background-color: rgba(255, 255, 55, 0.1);
-    border: 1px solid rgba(255,255,255,0.1);
     backdrop-filter: blur(30px);
 }
   
 .dropdown {
     position: absolute;
-    top: 600%;
-    right: 30%;
-    display: inline-block;
+    top: 696%;
+    right: 9%;
+    display: flex;
 }
   
 .dropdown_content {
@@ -354,9 +360,15 @@ footer span {
 .dropdown_content_true {
     display: block;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: var(--normalwhite);
     min-width: 160px;
+    right: .5rem;
+    top: -6rem;
+    line-height: 3rem;
+    border-radius: .5rem;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-align: center;
+    cursor: pointer;
 }
