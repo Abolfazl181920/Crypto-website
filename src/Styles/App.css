@@ -334,13 +334,23 @@ footer span {
   
 .dropdown {
     position: absolute;
-    top: 650%;
-    right: 10%;
+    top: 600%;
+    right: 30%;
     display: inline-block;
 }
   
-.dropdown-content {
+.dropdown_content {
     display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown_content_true {
+    display: block;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
