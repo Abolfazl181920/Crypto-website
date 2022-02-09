@@ -23,7 +23,6 @@ body {
 }
 
 /* Header.js component */
-
 .fullscreen-video {
     position: absolute;
     top: 50%;
@@ -291,4 +290,24 @@ footer h2 {
     left: 10%;
     word-spacing: .5rem;
     font-weight: 500;
+}
+
+footer button {
+    position: absolute;
+    top: 675%;
+    left: 10.3%;
+    z-index: 10;
+    padding: 7px 18px;
+    border: 0;
+    text-decoration: none;
+    border-radius: .8rem;
+    background-color: rgba(255, 255, 55, 0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
 }
