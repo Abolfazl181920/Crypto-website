@@ -1,5 +1,7 @@
 import React from 'react';
 
+import List from 'Components/Footer/List';
+
 import NavAnim from 'Assests/loop.webm';
 
 const Footer = () => {
@@ -11,6 +13,7 @@ const Footer = () => {
                 <source src={NavAnim} />
             </video>
             <span>Create by Abolfazl369 with Love.</span>
+            <List />
         </footer>
     );
 }
