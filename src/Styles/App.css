@@ -48,13 +48,9 @@ body {
     margin: 2rem 3rem;
     font-weight: 700;
     font-size: 15px;
-    border-top-left-radius: .8rem;
-    border-bottom-left-radius: .8rem;
-    border-top-right-radius: .8rem;
-    background-color: var(--blue);
-    box-shadow:
-    0 41.8px 43.4px rgba(0, 0, 0, 0.086),
-    0 110px 80px rgba(0, 0, 0, 0.12);
+    border-top-left-radius: 1.3rem;
+    border-bottom-left-radius: 1.3rem;
+    border-top-right-radius: 1.3rem;
     background-color: rgba(255, 255, 55, 0.1);
     border: 1px solid rgba(255,255,255,0.1);
     backdrop-filter: blur(30px);
@@ -314,4 +310,14 @@ footer button {
     letter-spacing: 2px;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+footer span {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 100;
+    color: var(--white);
+    top: 700%;
+    word-spacing: .2rem;
+    margin-left: 5%;
 }

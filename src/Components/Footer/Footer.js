@@ -10,6 +10,7 @@ const Footer = () => {
             <video className="footer_video" autoplay="autoplay" muted loop>
                 <source src={NavAnim} />
             </video>
+            <span>Create by Abolfazl369 with Love.</span>
         </footer>
     );
 }
