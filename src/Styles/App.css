@@ -53,8 +53,12 @@ body {
     border-top-right-radius: .8rem;
     background-color: var(--blue);
     box-shadow:
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
+    0 41.8px 43.4px rgba(0, 0, 0, 0.086),
+    0 110px 80px rgba(0, 0, 0, 0.12);
+    background-color: rgba(255, 255, 55, 0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
 }
 
 .header_links a {
