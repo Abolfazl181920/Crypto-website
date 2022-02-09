@@ -54,7 +54,6 @@ body {
     background-color: rgba(255, 255, 55, 0.1);
     border: 1px solid rgba(255,255,255,0.1);
     backdrop-filter: blur(30px);
-    color: rgba(255,255,255,0.8);
 }
 
 .header_links a {
@@ -304,7 +303,7 @@ footer button {
     background-color: rgba(255, 255, 55, 0.1);
     border: 1px solid rgba(255,255,255,0.1);
     backdrop-filter: blur(30px);
-    color: rgba(255,255,255,0.8);
+    color: var(--white);
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
