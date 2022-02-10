@@ -360,8 +360,7 @@ footer span {
 .dropdown_content_true {
     display: block;
     position: absolute;
-    background-color: var(--normalwhite);
-    min-width: 160px;
+    min-width: 60px;
     right: .5rem;
     top: -6rem;
     line-height: 3rem;
@@ -371,4 +370,11 @@ footer span {
     z-index: 1;
     text-align: center;
     cursor: pointer;
+}
+
+.flag {
+    border-radius: 10%;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
 }
