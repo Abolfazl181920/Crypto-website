@@ -378,3 +378,9 @@ footer span {
     width: 5rem;
     display: flex;
 }
+
+/* Faq.js component */
+.faq {
+    position: absolute;
+    color: red;
+}

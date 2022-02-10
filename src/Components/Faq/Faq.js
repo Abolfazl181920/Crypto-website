@@ -2,7 +2,7 @@ import React from 'react';
 
 const Faq = () => {
     return (
-        <div>
+        <div className="faq">
             <h2>Questions <br /> about Plink</h2>
             <h4>Simple, powerful, and useful.</h4>
             <div>
