@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header_links" style={{ zIndex: '10', position: 'fixed' }}>
+                <a>FAQ</a>
                 <a>contact</a>
-                <a>faq</a>
                 <button>Create account</button>
             </div>
             <h2 style={{ position: 'fixed', zIndex: '10' }}>Crypto</h2>

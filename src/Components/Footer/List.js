@@ -4,7 +4,7 @@ import Flag from 'react-world-flags';
 
 const List = () => {
 
-    const [ showItems, setShowItems ] = useState(true);
+    const [ showItems, setShowItems ] = useState(false);
 
     const showDropItems = () => {
         setShowItems(!showItems);
