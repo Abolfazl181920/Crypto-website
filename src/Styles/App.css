@@ -381,7 +381,18 @@ footer span {
 
 /* Faq.js component */
 .faq {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--black);
+    overflow: hidden;
+}
+
+.title{
     position: absolute;
-    color: red;
-    font-size: 150px;
+    color: var(--normalwhite);
+    font-size: 55px;
+    margin-left: 38%;
+    margin-top: 9%;
+    text-align: center;
+    word-spacing: .3rem;
 }
