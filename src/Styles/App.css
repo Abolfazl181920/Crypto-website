@@ -430,7 +430,7 @@ footer span {
 
 /* Bar.js component */
 .bar {
-    height: 25vh;
+    height: 40vh;
     width: 50%;
     position: absolute;
     top: 20%;
@@ -442,11 +442,16 @@ footer span {
 
 .bar h4 {
     color: var(--normalwhite);
+    font-size: 25px;
+    margin: 2.5rem 3rem;
 }
 
 .bar p {
     color: var(--blue);
     text-shadow: 6px 6px 0px rgba(68, 19, 204, 0.2);
+    font-family: 'BHN';
+    font-weight: normal;
+    margin: -1.5rem 3rem;
 }
 
 /* Profile.js component */
@@ -459,4 +464,13 @@ footer span {
     top: 20%;
     border-radius: .7rem;
     box-shadow: 0 3px 10px #111111, 0 5px 5px #111111;
+}
+
+/* Members.js component */
+.profile_img {
+    width: 3.5rem;
+    border: 3px solid var(--blue);
+    border-radius: 50%;
+    padding: .2rem;
+    margin: 4rem 3rem;
 }
