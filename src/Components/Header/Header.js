@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import NavAnim from 'Assests/loop.webm';
+import Anim from './Anim';
 
 const Header = () => {
     return (
@@ -12,9 +12,7 @@ const Header = () => {
                 <button>Create account</button>
             </div>
             <h2 style={{ position: 'fixed', zIndex: '10' }}>Crypto</h2>
-            <video className="fullscreen-video" id="myVideo" autoplay="autoplay" muted loop>
-                <source src={NavAnim} />
-            </video>
+            <Anim />
         </header>
     );
 }
