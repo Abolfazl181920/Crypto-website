@@ -1,8 +1,11 @@
 import React from 'react';
 
+import Header from 'Components/Header/Header';
+
 const Faq = () => {
     return (
         <div className="faq">
+            <Header />
             <h2 className="title">Questions <br /> about Plink</h2>
             <h5>Simple, powerful, and useful.</h5>
             <div className="faq2">
