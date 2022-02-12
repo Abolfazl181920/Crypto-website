@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// import Anim from './Anim';
-
 const Header = () => {
     return (
         <header className="header">
@@ -12,7 +10,6 @@ const Header = () => {
                 <button>Create account</button>
             </div>
             <h2 style={{ position: 'fixed', zIndex: '10' }}>Crypto</h2>
-            {/* <Anim /> */}
         </header>
     );
 }
