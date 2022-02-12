@@ -409,3 +409,13 @@ footer span {
     flex-direction: column;
     margin-top: -20%;
 }
+
+.faq2 h2 {
+    margin: 8% 30%;
+}
+
+.faq2 p {
+    margin: -5% 30%;
+    font-size: .8rem;
+    line-height: 1.5rem;
+}

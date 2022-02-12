@@ -7,8 +7,7 @@ const Faq = () => {
             <h5>Simple, powerful, and useful.</h5>
             <div className="faq2">
                 <h2>What does Plink cost?</h2>
-                <p>Plink's basic functionality is free. You only pay for the regular <br /> Mollie transaction costs when the payment succeeds. <br /> These costs are listed on the. We do charge an additional fee for certain <br /> premium functionalities. These additional costs can be found on our .</p>
-                <p>We do charge an additional fee for certain premium <br /> functionalities. These additional costs can <br /> be found on our .</p>
+                <p>Plink's basic functionality is free. You only pay for the regular Mollie transaction costs when <br /> the payment succeeds. These costs are listed on the. We do charge an additional <br /> fee for certain <br /> premium functionalities. These additional costs can be found on our .</p>
             </div>
         </div>
     );
