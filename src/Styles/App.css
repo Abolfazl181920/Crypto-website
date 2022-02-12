@@ -396,3 +396,15 @@ footer span {
     text-align: center;
     word-spacing: .3rem;
 }
+
+.faq h5 {
+    color: var(--normalwhite);
+    margin: 19% 42%;
+    color: var(--blue);
+}
+
+.faq2 {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
