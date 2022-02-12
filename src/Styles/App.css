@@ -407,4 +407,5 @@ footer span {
     color: var(--white);
     display: flex;
     flex-direction: column;
+    margin-top: -20%;
 }
