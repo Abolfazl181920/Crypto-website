@@ -53,8 +53,8 @@ body {
     border-top-left-radius: 1.3rem;
     border-bottom-left-radius: 1.3rem;
     border-top-right-radius: 1.3rem;
-    background-color: rgba(255, 255, 55, 0.1);
-    border: 1px solid rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(30px);
 }
 
@@ -438,6 +438,15 @@ footer span {
     background-color: var(--elemblack);
     border-radius: .7rem;
     box-shadow: 0 3px 10px #111111, 0 5px 5px #111111;
+}
+
+.bar h4 {
+    color: var(--normalwhite);
+}
+
+.bar p {
+    color: var(--blue);
+    text-shadow: 6px 6px 0px rgba(68, 19, 204, 0.2);
 }
 
 /* Profile.js component */

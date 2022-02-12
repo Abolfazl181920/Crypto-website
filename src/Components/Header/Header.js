@@ -9,7 +9,9 @@ const Header = () => {
                 <Link to="/contact" style={{ textDecoration: 'none' }}>contact</Link>
                 <button>Create account</button>
             </div>
-            <h2 style={{ position: 'fixed', zIndex: '10' }}>Crypto</h2>
+            <Link to="/">
+                <h2 style={{ position: 'fixed', zIndex: '10' }}>Crypto</h2>
+            </Link>
         </header>
     );
 }
