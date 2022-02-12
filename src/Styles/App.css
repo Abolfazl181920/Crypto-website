@@ -21,6 +21,7 @@ body {
     --normalwhite: #f1f1f1;
     --blue: rgb(47, 92, 218);
     --black: rgb(21, 21, 21);
+    --elemblack: #111111;
 }
 
 /* Header.js component */
@@ -434,17 +435,19 @@ footer span {
     position: absolute;
     top: 20%;
     left: 10%;
-    background-color: var(--normalwhite);
+    background-color: var(--elemblack);
     border-radius: .7rem;
+    box-shadow: 0 3px 10px #111111, 0 5px 5px #111111;
 }
 
 /* Profile.js component */
 .profile {
     height: 50vh;
     width: 25%;
-    background-color: var(--normalwhite);
+    background-color: var(--elemblack);
     position: absolute;
     right: 11%;
     top: 20%;
     border-radius: .7rem;
+    box-shadow: 0 3px 10px #111111, 0 5px 5px #111111;
 }
