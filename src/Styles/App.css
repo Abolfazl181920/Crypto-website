@@ -474,12 +474,40 @@ footer span {
     padding: .2rem;
 }
 
+.profile_icons {
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--white);
+    margin-top: 2rem;
+}
+
+.profile_icons span {
+    background-color: var(--blue);
+    height: 2rem;
+    width: 2.6rem;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: .5rem;
+    font-size: 1.3rem;
+    border: 2px solid var(--normalwhite);
+    cursor: pointer;
+}
+
 .profile_items {
     color: var(--white);
     display: flex;
     justify-content: space-evenly;
     margin-top: 1rem;
     text-align: center;
+}
+
+.profile_menu {
+    color: var(--white);
+    position: absolute;
+    right: 0;
+    padding: 1rem;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 /* Members.js component */

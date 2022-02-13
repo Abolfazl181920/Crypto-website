@@ -22,7 +22,7 @@ const Members = () => {
             }
             <button className="profile_img_button">Show All</button>
         </div>
-    )
+    );
 }
 
 export default Members;
