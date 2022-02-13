@@ -16,7 +16,7 @@ const Members = () => {
     return (
         <div>
             {
-                ImageSource.map(({source, id}) => {
+                ImageSource.map(({ source, id }) => {
                     return <img className="profile_img" src={source} key={id} />
                 })
             }

@@ -457,7 +457,7 @@ footer span {
 /* Profile.js component */
 .profile {
     height: 50vh;
-    width: 25%;
+    width: 22%;
     background-color: var(--elemblack);
     position: absolute;
     right: 11%;
@@ -466,12 +466,28 @@ footer span {
     box-shadow: 0 3px 10px #111111, 0 5px 5px #111111;
 }
 
+.profile img {
+    width: 5rem;
+    border-radius: 50%;
+    margin: 1.7rem 6.7rem;
+    border: 2px solid var(--white);
+    padding: .2rem;
+}
+
+.profile_items {
+    color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    text-align: center;
+}
+
 /* Members.js component */
 .profile_img {
     width: 3rem;
-    border: 3px solid var(--blue);
+    border: 2.5px solid var(--blue);
     border-radius: 50%;
-    padding: .2rem;
+    padding: .3rem;
     margin: 4.5rem .5rem;
     cursor: pointer;
 }
