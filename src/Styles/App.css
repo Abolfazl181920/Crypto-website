@@ -472,5 +472,6 @@ footer span {
     border: 3px solid var(--blue);
     border-radius: 50%;
     padding: .2rem;
-    margin: 4rem 3rem;
+    margin: 4.5rem .5rem;
+    cursor: pointer;
 }
