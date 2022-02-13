@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import Information from 'Components/Contact/Information';
 
 import ProfileImage from 'Assests/Profile.jpg';
 
@@ -8,9 +10,19 @@ import { MdEmojiFlags } from 'react-icons/md';
 import { BsThreeDotsVertical } from 'react-icons/bs'
 
 const Profile = () => {
+
+    const [showProfileInfo, setShowProfileInfo] = useState(false);
+
+    const handleShowProfileInfo = () => {
+        setShowProfileInfo(!showProfileInfo);
+    }
+
     return (
         <div className="profile">
-            <BsThreeDotsVertical className="profile_menu" />
+            <BsThreeDotsVertical onClick={handleShowProfileInfo} className="profile_menu" />
+            {
+                showProfileInfo ? <Information /> : null
+            }
             <img className="ProfileImage" src={ProfileImage} />
             <div className="profile_items">
                 <span>Statics <br /> 33</span>

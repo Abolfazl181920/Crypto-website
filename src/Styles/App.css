@@ -535,3 +535,10 @@ footer span {
     cursor: pointer;
     border: 2px solid var(--white);
 }
+
+/* Information.js component */
+.information {
+    height: 50vh;
+    width: 22%;
+    background-color: red;
+}
