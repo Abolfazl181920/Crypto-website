@@ -6,6 +6,10 @@ const SignUp = () => {
     const [ email, setEmail ] = useState("");
     const [ password, setPassword ] = useState("");
 
+    const formValidation = (event) => {
+        event.preventDefault();
+    }
+    
     const handleUserName = (event) => {
         setUserName(event.target.value);
     }
@@ -17,10 +21,10 @@ const SignUp = () => {
     const handlePassword = (event) => {
         setPassword(event.target.value);
     }
-    
+
     return (
         <div className="signup_body">
-            <form className="signup_form" method="post">
+            <form onSubmit={formValidation} className="signup_form" method="post">
                 <h1 className="signup_title">Sign Up</h1>
                 <fieldset>
                     <legend><span class="number">1</span> Your basic info</legend>
