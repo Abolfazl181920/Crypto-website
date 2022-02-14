@@ -8,7 +8,7 @@ const SignUp = () => {
 
     const formValidation = (event) => {
         event.preventDefault();
-        if (userName !== "" || email !== "" || password !== "") {
+        if (userName !== "" && email !== "" && password !== "") {
             alert('true');
         } else {
             alert('false');
