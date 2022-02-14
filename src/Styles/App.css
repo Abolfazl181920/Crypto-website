@@ -549,8 +549,9 @@ footer span {
     max-width: 300px;
     margin: 10px auto;
     padding: 10px 20px;
-    background: #f4f7f8;
+    background: var(--elemblack);
     border-radius: 8px;
+    color: var(--white);
 }
   
 .signup_title {
@@ -582,11 +583,12 @@ select {
     margin: 0;
     outline: 0;
     padding: 15px;
-    width: 100%;
-    background-color: #e8eeef;
+    width: 88.5%;
+    background-color: var(--black);
     color: #8a97a0;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
     margin-bottom: 30px;
+    border-radius: .5rem;
 }
   
 input[type="radio"],
@@ -602,17 +604,17 @@ select {
   
 .signup {
     padding: 19px 39px 18px 39px;
-    color: #FFF;
-    background-color: #4bc970;
+    color: var(--white);
+    background-color: var(--blue);
     font-size: 18px;
     text-align: center;
     font-style: normal;
     border-radius: 5px;
     width: 100%;
-    border: 1px solid #3ac162;
+    border: 1px solid var(--white);
     border-width: 1px 1px 3px;
-    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
     margin-bottom: 10px;
+    cursor: pointer;
 }
   
 fieldset {
