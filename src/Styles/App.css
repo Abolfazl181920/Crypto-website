@@ -547,21 +547,23 @@ footer span {
 /* SignUp.js component */
 .signup_form {
     max-width: 300px;
-    margin: 10px auto;
+    margin: 50px auto;
     padding: 10px 20px;
     background: var(--elemblack);
-    border-radius: 8px;
+    border-radius: .8rem;
     color: var(--white);
+    box-shadow: 30px 10px 0 rgba(0, 0, 0, 0.03);
 }
   
 .signup_title {
-    margin: 0 0 30px 0;
+    margin: 8px 0 30px 0;
     text-align: center;
 }
 
 .signup_body {
     background-color: var(--black);
     overflow: hidden;
+    height: 100vh;
 }
 
 input[type="text"],

@@ -41,10 +41,6 @@ const SignUp = () => {
 
                     <label for="password">Password:</label>
                     <input value={password} onChange={handlePassword} type="password" id="password" name="user_password" />
-
-                    <label>Age:</label>
-                    <input type="radio" id="under_13" value="under_13" name="user_age" /><label for="under_13" class="light">Under 13</label><br/>
-                    <input type="radio" id="over_13" value="over_13" name="user_age" /><label for="over_13" class="light">13 or older</label>
                 </fieldset>
 
                 <button className="signup" type="submit">Sign Up</button>
