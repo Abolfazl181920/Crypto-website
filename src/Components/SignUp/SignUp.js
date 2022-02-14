@@ -14,6 +14,11 @@ const SignUp = () => {
         } else {
             setValid(false);
         }
+
+        if (valid) {
+            alert(valid);
+            axios
+        }
     }
 
     const handleUserName = (event) => {
