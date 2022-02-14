@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const SignUp = () => {
 
+    const [ valid, setValid ] = useState(false);
     const [ userName, setUserName ] = useState("");
     const [ email, setEmail ] = useState("");
     const [ password, setPassword ] = useState("");
@@ -9,9 +10,9 @@ const SignUp = () => {
     const formValidation = (event) => {
         event.preventDefault();
         if (userName !== "" && email !== "" && password !== "") {
-            alert('true');
+            setValid(true);
         } else {
-            alert('false');
+            setValid(false);
         }
     }
 
