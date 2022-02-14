@@ -8,8 +8,13 @@ const SignUp = () => {
 
     const formValidation = (event) => {
         event.preventDefault();
+        if (userName !== "" || email !== "" || password !== "") {
+            alert('true');
+        } else {
+            alert('false');
+        }
     }
-    
+
     const handleUserName = (event) => {
         setUserName(event.target.value);
     }
