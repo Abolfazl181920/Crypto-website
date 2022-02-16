@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate, Router } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import Error404 from 'Assests/404.png';
 
@@ -14,7 +14,7 @@ const ErrorPage = () => {
             navigate("/");
         }
     }
-    
+
     return(
         <>
             <img src={Error404} className="error404" />
