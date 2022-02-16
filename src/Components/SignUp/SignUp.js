@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const SignUp = () => {
 
@@ -6,6 +7,8 @@ const SignUp = () => {
     const [ userName, setUserName ] = useState("");
     const [ email, setEmail ] = useState("");
     const [ password, setPassword ] = useState("");
+
+    let navigate = useNavigate();
 
     const formValidation = (event) => {
         event.preventDefault();
@@ -16,7 +19,7 @@ const SignUp = () => {
         }
 
         if (valid) {
-            alert(valid);
+            navigate("/login");
         }
     }
 
