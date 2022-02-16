@@ -17,7 +17,6 @@ const SignUp = () => {
 
         if (valid) {
             alert(valid);
-            axios
         }
     }
 

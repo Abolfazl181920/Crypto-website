@@ -634,3 +634,24 @@ label {
     display: block;
     margin-bottom: 8px;
 }
+
+/* ErrorPage.js component */
+.error404 {
+    height: 100vh;
+    margin-left: 17%;
+}
+
+.redirect_button {
+    position: absolute;
+    padding: 1rem;
+    border-style: none;
+    right: 43%;
+    background-color: var(--blue);
+    cursor: pointer;
+    appearance: none;
+    top: 73.5%;
+    border-radius: .3rem;
+    color: var(--white);
+    font-weight: 700;
+    font-family: 'BHN';
+}
