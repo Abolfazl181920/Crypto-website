@@ -10,6 +10,7 @@ import SignUp from 'Components/SignUp/SignUp';
 import LogIn from 'Components/LogIn/LogIn';
 import ErrorPage from 'Components/Error/ErrorPage';
 import Panel from 'Components/Panel/Panel';
+import Test from 'Components/Test/Test';
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
                         <Route path="/signup" element={ <SignUp /> } />
                         <Route path="/login" element={ <LogIn /> } />
                         <Route path="/panel" element={ <Panel /> } />
+                        <Route path="/test" element={ <Test /> } />
                         <Route path="*" element={ <ErrorPage /> } />
                     </Routes>
                 </GlobalContext.Provider>
