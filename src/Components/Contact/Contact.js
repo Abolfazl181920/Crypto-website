@@ -11,7 +11,7 @@ const Contact = () => {
             <Profile />
             <Bar />
         </div>
-    )
+    );
 }
 
 export default Contact;
